@@ -13,4 +13,4 @@ I first learned about making websites in a school elective. They're relatively g
 
 I'm really passionate about orchestra, and I've played violin for 11 years. Every now and then I do some amateur recording for fun. 
 
-[Mendelssohn Violin Concerto E Minor OP.64 (note: this isn't actually)](https://www.youtube.com/watch?v=o1dBg__wsuo)
+[Mendelssohn Violin Concerto E Minor OP.64 (note: this isn't actually me)](https://www.youtube.com/watch?v=o1dBg__wsuo)
