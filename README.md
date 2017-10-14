@@ -1,37 +1,5 @@
-## Welcome to Andrew's website!
+## Welcome to Andrew's website! 
 
-You can use the [editor on GitHub](https://github.com/Andrewyzhang/Andrewyzhang.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I'm currently a seventeen-year-old high school student at Acton-Boxborough Regional High School. I am rather passionate about school. I have both of my parents that support me, and an awesome older brother that guides me. My main hobbies are tennis and violin, but I also enjoy a handful of video games, going biking, traveling, skiing, and ice skating. I've been in Massachusetts my entire life, being born in Boston, then living in Newton until I was thirteen. I'm rather new to the world of programming and coding, but I look forward to delving into it more! 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Andrewyzhang/Andrewyzhang.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Pokemon Website]('pokemon_competitive/index.html')
