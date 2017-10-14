@@ -6,7 +6,7 @@ I'm currently a seventeen-year-old high school student at Acton-Boxborough Regio
 
 I first learned about making websites in a school elective. They're relatively goofy, but I keep them around anyway. 
 
-[SSB4 Website](ssb4_website_az/index.html)
+[SSB4 Website](ssb4_website_az/index.html)\n
 [Pokemon Website](pokemon_competitive/index.html)
 
 ### Music
