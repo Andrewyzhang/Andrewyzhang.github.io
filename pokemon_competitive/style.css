@@ -64,6 +64,7 @@ ul#menu li ul.sub-menu:hover {
 }
 ul#menu li:hover ul.sub-menu  li:hover a {
     color: #066de0; background-color: #ddd; 
+    width: 145px; 
 }
 
 
@@ -119,8 +120,8 @@ ul#menu .arrow {
     transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 
