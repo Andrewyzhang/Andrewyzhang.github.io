@@ -44,7 +44,8 @@ section {
 
 .top_menu ul li {
     display: inline-block;
-    width: 50px; 
+    text-align: center;
+    width: 110px; 
 }
 
 footer {
