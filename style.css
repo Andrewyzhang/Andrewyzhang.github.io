@@ -1,19 +1,55 @@
-.container { 
-    text-align: center; 
-    margin-left: auto; margin-right: auto; 
-    width: 800px; 
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+body {
+  padding:50px;
+  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#777;
+  font-weight:300;
 }
 
-.content h1 {
-    font-size: 50px; 
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+  margin:0 0 20px;
 }
 
-.selfphoto {
-    width: 350px; 
+h2, h3 {
+  line-height:1.1;
+  padding-top: 15px;
 }
 
-.background {
-    text-align: center;
-    font-family: apple casual, sans-serif; 
-    line-height: 1.5em; 
+.wrapper {
+  width:860px;
+  margin:0 auto;
+}
+
+img {
+  max-width:100%;
+}
+
+header {
+  width:270px;
+  float:left;
+  position:fixed;
+}
+
+section {
+  width:500px;
+  float:right;
+  padding-bottom:50px;
+}
+
+.top_menu ul {
+    list-style-type: none;
+}
+
+.top_menu ul li {
+    display: inline-block;
+    width: 50px; 
+}
+
+footer {
+  width:270px;
+  float: left;
+  position: fixed;
+  padding-top: 450px;
 }
