@@ -7,6 +7,7 @@
 
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+        <script src="detail.js" async></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -15,58 +16,67 @@
 
     <body>
     <div class="wrapper">
-        <header>
+        <div class="left_col">
             <!--<side column content-->
-            <h1>Andrew Y. Zhang</h1>
-            <img src="china_portrait.jpeg"><br><br>
-            Email: andrew34zhang@gmail.com <br>
-            Phone: (617) 817-4263
-        </header>
+            <h1 class="name">Andrew Y. Zhang</h1>
+            <img src="china_portrait.jpeg" class="portrait"><br>
 
-        <section>
-            <div class="top_menu">
+            <div class="side_menu">
                 <ul class="pages">
-                    <li>About</li>
-                    <li>CS Projects</li>
-                    <li>Music</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">CS Projects</a></li>
+                    <li><a href="#music">Music</a></li>
                 </ul>
             </div>
 
-            <h2><a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to my website!</h2>
-                  
-            <p> Hello! I am currently a nineteen-year-old sophomore at Tufts University studying under computer science and applied mathematics, with a minor in music. I grew up in Newton, MA, but attended high school at Acton-Boxborough Regional High School. I'm very passionate about violin, playing classical repertoire with chamber groups and orchestras. Some of my other passions include tennis, video games, biking, traveling, skiing, and ice skating. As I learn more throughout college, I hope to build more projects and expand my knowledge of computer science! </p>
-           
-            <h3>School projects</h3>
-            <p> Back in high school, I briefly learned some HTML/CSS and created two personal websites. The first on is about Super Smash Bros 4, one of the best crossover games under Nintendo. This project gives an overview of how to play the game. Another Nintendo franchise I love is Pokemon, and my second website gives insight on the competitive aspect of it. I'm pround to present these as the first two websites I've used my personal creativity to build. </p>
- 
-            <ul>
-                <li><a href="ssb4_website_az/index.html" target="_blank">SSB4 Website</a></li>
-                <li><a href="pokemon_competitive/index.html" target="_blank">Pokemon Website</a></li>
-            </ul>  
-              
-            <h3>Extracurricular activities</h3>
+            <div class="contact">
+                Contact Info: <br>
+                Email - andrew.zhang@tufts.edu <br>
+                Phone - (617) 817-4263
+            </div>
+        </div>
+        
 
-            <p>Outside of academic courses, I keep myself busy through a variety of activities. One word that influences my life the most: strings. </p>
+        <section>
 
-            <ul>
-                <li> Music! As a young first grader who had no concept of free will, I was granted the chance to play a fancy wooden box with horsehair on a stick. From that faithful moment, I would call myself a violinist.  While solo performances scare me stiff, the community I found in orchestras and chamber groups foster my love for classical repertoire. On the road, I taught myself viola, which exposed me to a whole new perspective in ensemble music (and also viola jokes). </li>
-                <li>Tennis! Something that my entire family participates in. Alongside ice hockey and swimming, it has kept me actively on my feet and has been a stress reliever throughout my academic years. My Saturday mornings have been defined by heading out to the courts and playing friendly matches with family and friends, and the community that formed around me from that shared passion is one I will always cherish.  </li>
-            </ul>
+            <div class="welcome">
+                <h2>Welcome to my website!</h2>
+                <p>Thank you for taking the time to visit my site! Learn more about me not only as an aspiring computer scientist, but a character as a whole!</p>
+            </div>
+                 
+            <div class="about_sec" id="about">
+                <h3>About Me</h3>
+                <p> Currently 19, I just completed my sophomore year at Tufts University studying under computer science and mathematics, with a minor in music. I was born in Boston and grew up in Newton, MA, but attended high school at Acton-Boxborough Regional High School. Growing up, my greatest passion is playing the violin/viola. I especially love orchestral and chamber classical repertoire. Some of my other hobbies include tennis, biking, traveling, skiing, ice skating, and playing video games. Academically, I've always performed best in math, and I entered computer science with very little experience. As I learn more throughout college, I hope to build more projects and expand my knowledge! </p>
             
+                <p>A little bit more about violin and tennis, the two activities I've kept up with for the majority of my childhood: </p>
+
+                <ul>
+                    <li> Music! As a young first grader who had no concept of free will, I was granted the chance to play a fancy wooden box with horsehair on a stick. From that faithful moment, I would call myself a violinist.  While solo performances scare me stiff, the communities I found in orchestras and chamber groups foster my love for classical repertoire. Junior year of high school, I taught myself viola, which exposed me to a whole new perspective in ensemble music (and also viola jokes). </li><br>
+                    <li>Tennis! Something that my entire family participates in. Alongside ice hockey and swimming, it has kept me active on my feet and has been a stress reliever throughout my academic years. My Saturday mornings have been defined by heading out to the courts and playing friendly matches with family and friends, and the community that formed around me from that shared passion is one I will always cherish.  </li>
+                </ul>
+            </div>
+
+            <div class="projects_sec" id="projects">
+                <h3>School projects</h3>
+                <p> High school was my first exposure to HTML/CSS, and I designed two websites during that time. My very first one was about Super Smash Bros 4, my favorite combat-style video game. This project gives an overview of how to play the game. Another Nintendo franchise I love is Pokemon, and my second website gives insight on the competitive aspect of it. I'm pround to present these as the first two websites I've used my personal creativity to build. </p>
+    
+                <ul class="prev_sites">
+                    <li class="text_link"><a href="ssb4_website_az/index.html" target="_blank">SSB4 Website</a></li>
+                    <li class="text_link"><a href="pokemon_competitive/index.html" target="_blank">Pokemon Website</a></li>
+                    <li><img src="ssb4_logo.png" width="50" height="50"></li>
+                    <li><img src="pokemon_logo.png" width="50" height="50"></li>
+                </ul>  
+            </div>
             
-            <h3>Music</h3>          
-            <p> In a chamber music program, I got the opportunity to perform the Mendelssohn Octet in Eb major at Gables in Winchester, a senior community home. Playing viola in the 1st movement and violin in the second, here's are the first two movements of Mendelssohn's Octet: </p>
-            
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/DO5dTuez0qw" frameborder="0" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/d4lIuVH8d74" frameborder="0" allowfullscreen></iframe>
+            <div class="music_sec" id="music">
+                <h3>Music</h3>          
+                <p> In a chamber music program, I got the opportunity to perform the Mendelssohn Octet in Eb major at Gables in Winchester, a senior community home. Playing viola in the 1st movement and violin in the second, here's are the first two movements of Mendelssohn's Octet: </p>
+                
+                <iframe width="540" height="315" src="https://www.youtube.com/embed/DO5dTuez0qw" frameborder="0" allowfullscreen></iframe>
+                <iframe width="540" height="315" src="https://www.youtube.com/embed/d4lIuVH8d74" frameborder="0" allowfullscreen></iframe>
+            </div>
         </section>
-
-        <footer>
-        Thanks to Jesse Zhang for the creation of this website. 
-        </footer>
     </div>
-
-    <script src="javascripts/scale.fix.js"></script>
 
     </body>
 </html>

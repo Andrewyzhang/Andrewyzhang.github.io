@@ -1,56 +1,192 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
+  padding: 50px;
+  font-size: 14px/1.5;
+  font-family: Muli, Lato, "Helvetica", "Arial";
+  color: #777;
+  background-color: #fbfcf1;
+  font-weight: 70;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 20px;
+  color: #222;
+  margin: 0 0 20px;
 }
 
 h2, h3 {
-  line-height:1.1;
+  line-height: 1.1;
   padding-top: 15px;
 }
 
 .wrapper {
-  width:860px;
+  width: 900px;
   margin:0 auto;
 }
 
-img {
-  max-width:100%;
-}
-
-header {
-  width:270px;
-  float:left;
-  position:fixed;
-}
-
-section {
-  width:500px;
-  float:right;
-  padding-bottom:50px;
-}
-
-.top_menu ul {
-    list-style-type: none;
-}
-
-.top_menu ul li {
-    display: inline-block;
-    text-align: center;
-    width: 110px; 
-}
-
-footer {
-  width:270px;
+/* Left column content */
+.left_col {
+  background-color: #b6ddf0;
+  width: 270px;
+  height: 650px;
   float: left;
   position: fixed;
-  padding-top: 450px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+h1.name {
+    text-align: center;
+    font-size: 30px;
+    background-color: #85d3f7;
+    width: 280px; 
+    margin: -10px auto 20px -10px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px 5px; 
+}
+
+.portrait {
+    max-width:100%;
+    border-radius: 20px;
+  }
+
+.side_menu ul {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.side_menu ul li {
+    text-align: center;
+    width: 290px;
+    margin-left: -50px;
+    background-color: #85d3f7;
+}
+
+.side_menu ul li a {    
+    text-decoration: none; 
+    display: inline-block;    
+    height: 30px; 
+    width: 290px; 
+    padding-top: 10px;
+    padding-bottom: 4px;  
+ }
+
+.side_menu ul li a:hover {
+    background-color: #d1e6f0;
+}
+
+.contact {
+    padding: 1px 10px;
+}
+
+/* Right column content */
+section {
+  width: 590px;
+  float: right;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.welcome {
+    border: double #777 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+}
+
+.welcome h2 {
+    font: 80px "Permanent Marker";
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.welcome p {
+    text-align: center;
+}
+
+.about_sec {
+    background-color: #f0ebab;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.about_sec h3 {
+    background-color: #f3ea70;
+    width: 590px; 
+    margin: -20px auto auto -20px; 
+    padding-bottom: 10px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.about_sec ul li {
+    list-style-type: square;
+}
+
+.projects_sec {
+    background-color: #b6ddf0;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.projects_sec h3 {
+    background-color: #85d3f7;
+    width: 590px; 
+    margin: -20px auto auto -20px; 
+    padding-bottom: 10px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.prev_sites {
+    padding: 20px; 
+    list-style-type: none;
+    display: grid; 
+    grid-template-columns: 150px 150px;
+    justify-content: center;
+}
+
+.prev_sites li {
+    height: 30px; 
+}
+
+.prev_sites li a {
+    text-decoration: none;
+}
+
+.prev_sites li img {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text_link a {
+    display: inline-block;   
+    width: 150px; 
+    padding-bottom: 65px; 
+}
+
+.text_link a:hover {
+    background-color: #85d3f7;
+}
+
+.music_sec {
+    background-color: #f0ebab;
+    border-radius: 20px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+.music_sec h3 {
+    background-color: #f3ea70;
+    width: 590px; 
+    margin: -20px auto auto -20px; 
+    padding-bottom: 10px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
