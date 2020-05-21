@@ -67,16 +67,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .side_menu_mobile ul li {
-    padding: 25px 5px;
-    width: 30%;
-}
-
-.side_menu_mobile ul li a {
-    padding: 25px 50px;
-}
-
-.side_menu_mobile ul li a:hover {
-    background-color: #d1e6f0;
+    display: inline-block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 33%;
+    border-right: solid #85d3f7 2px;
 }
 
 /* Bottom half */
