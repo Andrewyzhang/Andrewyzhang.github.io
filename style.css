@@ -43,7 +43,19 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -380px;
 }
 
-.side_menu {
+.side_menu ul {
+    list-style-type: none;
+}
+
+.side_menu ul li {
+    background-color: #85d3f7;
+}
+
+.side_menu ul li a:hover {
+    background-color: #d1e6f0;
+}
+
+.menu_general {
     display: none;
 }
 
@@ -51,33 +63,28 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-.side_menu_mobile {
+.menu_mobile {
     margin-bottom: 30px;
     text-align: center;
 }
 
-.side_menu_mobile ul {
-    list-style-type: none;
-    background-color: #85d3f7;
+.menu_mobile ul {
     margin: -20px -8px auto -48px;
     display: flex;
     justify-content: space-around;
 }
 
-.side_menu_mobile ul li {
+.menu_mobile ul li {
     display: inline-block;
     padding-top: 25px;
     padding-bottom: 25px;
     width: 33%;
     background-color: #85d3f7;
+    border-right: solid #85d3f7 2px;
 }
 
-.side_menu_mobile ul li a {
+.menu_mobile ul li a {
     padding: 25px 20%
-}
-
-.side_menu_mobile ul li a:hover {
-    background-color: #d1e6f0;
 }
 
 /* Bottom half */
@@ -101,20 +108,26 @@ section {
     text-align: center;
 }
 
-.about_sec {
-    background-color: #f0ebab;
+.content {
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.about_sec h3 {
-    background-color: #f3ea70;
+.content h3 {
     margin: -20px -20px auto -20px;
     padding-top: 10px;
     padding-bottom: 10px; 
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+.about_sec {
+    background-color: #f0ebab;
+}
+
+.about_sec h3 {
+    background-color: #f3ea70;
 }
 
 .about_sec ul li {
@@ -123,18 +136,10 @@ section {
 
 .projects_sec {
     background-color: #b6ddf0;
-    border-radius: 20px;
-    padding: 20px;
-    margin-bottom: 20px;
 }
 
 .projects_sec h3 {
     background-color: #85d3f7;
-    margin: -20px -20px auto -20px; 
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 }
 
 .prev_sites {
@@ -184,18 +189,10 @@ section {
 
 .music_sec {
     background-color: #f0ebab;
-    border-radius: 20px;
-    padding: 20px;
-    padding-bottom: 20px;
 }
 
 .music_sec h3 {
     background-color: #f3ea70;
-    margin: -20px -20px auto -20px; 
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
 } 
 
 .music_sec iframe {
@@ -219,18 +216,24 @@ section {
     .wrapper {
         width: 920px;
         margin:0 auto;
+        content: "";
+        display: table;
+        clear: both;
     }
 
     /* Left column content */
+
     .left_col {
         margin: initial;
         border-bottom: initial;
         width: 270px;
         height: 650px;
         float: left;
-        position: fixed;
         padding: 10px;
         border-radius: 20px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 20px;
     }
 
     h1.name {
@@ -254,34 +257,32 @@ section {
         display: none;
     }
 
-    .side_menu {
+    .menu_mobile {
+        display: none;
+    }
+
+    .menu_general {
         display: initial;
     }
 
-    .side_menu ul {
-        list-style-type: none;
+    .menu_general ul {
         padding-top: -10px;
         padding-bottom: 20px;
     }
 
-    .side_menu ul li {
+    .menu_general ul li {
         text-align: center;
         width: 290px;
         margin-left: -50px;
-        background-color: #85d3f7;
     }
 
-    .side_menu ul li a {    
+    .menu_general ul li a {    
         text-decoration: none; 
         display: inline-block;    
         height: 30px; 
         width: 100%; 
         padding-top: 10px;
         padding-bottom: 4px;  
-    }
-
-    .side_menu ul li a:hover {
-        background-color: #d1e6f0;
     }
 
     .contact {
@@ -297,7 +298,7 @@ section {
     section {
         width: 602.6px;
         float: right;
-        padding-bottom: 50px;
+        margin-bottom: -20px;
     }
 
     .welcome h2 {
@@ -305,20 +306,9 @@ section {
         padding-bottom: 10px;
     }
 
-    .about_sec h3 {
-        width: 590px; 
-        margin: -20px auto auto -20px;
+    .content h3 {
+        width: 603px; 
     }
-
-    .projects_sec h3 {
-        width: 590px; 
-        margin: -20px auto auto -20px; 
-    }
-
-    .music_sec h3 {
-        width: 590px; 
-        margin: -20px auto auto -20px; 
-    } 
 
     .music_sec iframe {
         width: 540px; 
@@ -365,21 +355,9 @@ section {
             font: 60px "Permanent Marker";
         }
         
-        .about_sec h3 {
+        .content h3 {
             width: inherit; 
-            margin: -20px -20px auto -20px;
         }
-        
-        .projects_sec h3 {
-            background-color: #85d3f7;
-            width: inherit; 
-            margin: -20px -20px auto -20px; 
-        }
-        
-        .music_sec h3 {
-            width: inherit; 
-            margin: -20px auto auto -20px; 
-        } 
 
         .music_sec iframe {
             height: initial;
