@@ -53,6 +53,11 @@ function smoothScroll(target, duration) {
     requestAnimationFrame(animation);
 }
 
+var home_scroll = document.querySelector('.name'); 
+home_scroll.addEventListener('click', function() {
+    smoothScroll('#home', 700); 
+});
+
 var about_scroll = document.querySelector('.about_selector'); 
 about_scroll.addEventListener('click', function() {
     smoothScroll('#about', 700); 

@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .name {
     text-align: center;
+    font-size: 38px;
+}
+
+.name a {
+    text-decoration: none;
+    color: #000000;
 }
 
 .portrait {
@@ -60,6 +66,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #85d3f7;
 }
 
+.side_menu ul li a {
+    color: #3e515a;
+}
+
 .side_menu ul li a:hover {
     background-color: #d1e6f0;
 }
@@ -89,11 +99,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 25px;
     width: 33%;
     background-color: #85d3f7;
-    border-right: solid #85d3f7 2px;
+    border-right: solid #85d3f7 4px;
 }
 
 .menu_mobile ul li a {
-    padding: 25px 20%
+    padding: 25px 20%;
+    text-decoration: none;
 }
 
 /* Bottom half */
@@ -221,8 +232,7 @@ section {
 footer {
     display: block;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    margin: -5px auto 20px auto;
     width: 120px;
     height: 20px;
     padding: 10px;
@@ -235,8 +245,8 @@ footer a {
     text-decoration: none;
     border-radius: 8px;
     padding: 10px 25px;
-    margin-left: -20px;
-    margin-right: -21px;
+    margin-left: -21px;
+    margin-right: -22px;
 }
 
 footer a:hover {
@@ -244,7 +254,7 @@ footer a:hover {
 }
 
 /* Desktop views */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 740px) {
 
     body {
         padding: 20px;
@@ -372,7 +382,7 @@ footer a:hover {
         /* Left column content */
         .left_col {
             width: 28.4%;
-            min-width: 195px;
+            min-width: 200px;
             height: 660px;
         }
     
@@ -406,10 +416,8 @@ footer a:hover {
         }
 
         .music_sec iframe {
-            height: initial;
+            height: calc(80vw * .3);
             width: 80%; 
         }
-
     }
-
 }
