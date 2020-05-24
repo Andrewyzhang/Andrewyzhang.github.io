@@ -14,19 +14,19 @@
         <![endif]-->
     </head>
 
-    <body>
+    <body id="home">
     <div class="wrapper">
         <div class="left_col">
             <!--<side column content-->
             <h1 class="name">Andrew Y. Zhang</h1>
-            <img src="china_portrait.jpeg" class="portrait"><br>
+            <img src="china_portrait.jpeg" class="portrait show_on_scroll"><br>
 
             <img src="menu.png" class="menu_button">
             <div class="side_menu menu_general">
                 <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">CS Projects</a></li>
-                    <li><a href="#music">Music</a></li>
+                    <li><a href="#about" class="about_selector">About</a></li>
+                    <li><a href="#projects" class="project_selector">Projects</a></li>
+                    <li><a href="#music" class="music_selector">Music</a></li>
                 </ul>
             </div>
 
@@ -39,9 +39,9 @@
 
         <div class="side_menu menu_mobile">
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">CS Projects</a></li>
-                <li><a href="#music">Music</a></li>
+                <li><a href="#about" class="about_selector_mobile">About</a></li>
+                <li><a href="#projects" class="project_selector_mobile">Projects</a></li>
+                <li><a href="#music" class="music_selector_mobile">Music</a></li>
             </ul>
         </div>
         
@@ -69,10 +69,10 @@
                 <h3>School Projects</h3>
                 <p> High school was my first exposure to HTML/CSS, and I designed two websites during that time. My very first one was about Super Smash Bros 4, my favorite combat-style video game. This project gives an overview of how to play the game. Another Nintendo franchise I love is Pokemon, and my second website gives insight on the competitive aspect of it. I'm pround to present these as the first two websites I've used my personal creativity to build. </p>
     
-                <ul class="prev_sites">
+                <ul class="prev_sites show_on_scroll">
                     <li class="text_link"><a href="ssb4_website_az/index.html" target="_blank">SSB4 Website</a></li>
                     <li class="text_link"><a href="pokemon_competitive/index.html" target="_blank">Pokemon Website</a></li>
-                    <li class="image_link"><a href="pokemon_competitive/index.html" target="_blank"><img src="ssb4_logo.png" width="50" height="50"></a></li>
+                    <li class="image_link"><a href="ssb4_website_az/index.html" target="_blank"><img src="ssb4_logo.png" width="50" height="50"></a></li>
                     <li class="image_link"><a href="pokemon_competitive/index.html" target="_blank"><img src="pokemon_logo.png" width="50" height="50"></a></li>
                 </ul>  
             </div>
@@ -85,6 +85,10 @@
                 <iframe src="https://www.youtube.com/embed/d4lIuVH8d74" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
+
+        <footer>
+            <a href="#home" class="home_selector_mobile">Back To Top</a>
+        </footer>
     </div>
 
     </body>
