@@ -53,42 +53,30 @@ function smoothScroll(target, duration) {
     requestAnimationFrame(animation);
 }
 
-var home_scroll = document.querySelector('.name'); 
-home_scroll.addEventListener('click', function() {
-    smoothScroll('#home', 700); 
-});
+var home_scroll = document.getElementsByClassName('home_selector'); 
+for (var i = 0; i < home_scroll.length; i++) {
+    home_scroll[i].addEventListener('click', function() {
+        smoothScroll('#home', 700); 
+    });
+}
 
-var about_scroll = document.querySelector('.about_selector'); 
-about_scroll.addEventListener('click', function() {
-    smoothScroll('#about', 700); 
-});
+var about_scroll = document.getElementsByClassName('about_selector'); 
+for (var i = 0; i < about_scroll.length; i++) {
+    about_scroll[i].addEventListener('click', function() {
+        smoothScroll('#about', 700); 
+    });
+}
 
-var project_scroll = document.querySelector('.project_selector'); 
-project_scroll.addEventListener('click', function() {
-    smoothScroll('#projects', 700); 
-});
+var project_scroll = document.getElementsByClassName('project_selector'); 
+for (var i = 0; i < project_scroll.length; i++) {
+    project_scroll[i].addEventListener('click', function() {
+        smoothScroll('#projects', 700); 
+    });
+}
 
-var music_scroll = document.querySelector('.music_selector'); 
-music_scroll.addEventListener('click', function() {
-    smoothScroll('#music', 700); 
-});
-
-var about_scroll_mobile = document.querySelector('.about_selector_mobile'); 
-about_scroll_mobile.addEventListener('click', function() {
-    smoothScroll('#about', 700); 
-});
-
-var project_scroll_mobile = document.querySelector('.project_selector_mobile'); 
-project_scroll_mobile.addEventListener('click', function() {
-    smoothScroll('#projects', 700); 
-});
-
-var music_scroll_mobile = document.querySelector('.music_selector_mobile'); 
-music_scroll_mobile.addEventListener('click', function() {
-    smoothScroll('#music', 700); 
-});
-
-var home_scroll_mobile = document.querySelector('.home_selector_mobile'); 
-home_scroll_mobile.addEventListener('click', function() {
-    smoothScroll('#home', 700); 
-});
+var music_scroll = document.getElementsByClassName('music_selector'); 
+for (var i = 0; i < music_scroll.length; i++) {
+    music_scroll[i].addEventListener('click', function() {
+        smoothScroll('#music', 700); 
+    });
+}
