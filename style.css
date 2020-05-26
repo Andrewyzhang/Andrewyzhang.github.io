@@ -325,8 +325,9 @@ footer a:hover {
 
     .menu_general ul li {
         text-align: center;
-        width: 290px;
+        width: 287px;
         margin-left: -50px;
+        border-right: 3px solid #85d3f7;
     }
 
     .menu_general ul li a {    
@@ -336,6 +337,11 @@ footer a:hover {
         width: 100%; 
         padding-top: 10px;
         padding-bottom: 4px;  
+        border-left: 3px solid transparent;
+    }
+
+    .menu_general ul li a:hover {
+        border-left: solid #4097c0 3px;
     }
 
     .contact {
