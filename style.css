@@ -170,7 +170,7 @@ section {
     justify-content: center;
     opacity: 0;
     transform: translateY(1em);
-    transition: transform 1s .1s cubic-bezier(0,1,.3,1), opacity .1s .25s ease-out;
+    transition: transform 1s .1s cubic-bezier(0,1,.3,1), opacity 1s .25s ease-out;
     will-change: transform, opacity;
 }
 
@@ -246,8 +246,8 @@ footer a {
     color: #0a2736;
     border-radius: 8px;
     padding: 10px 25px;
-    margin-left: -22px;
-    margin-right: -22px;
+    margin-left: -20px;
+    margin-right: -20px;
 }
 
 footer a:hover {
@@ -280,7 +280,7 @@ footer a:hover {
         margin: initial;
         border-bottom: initial;
         width: 270px;
-        height: 650px;
+        height: 670px;
         float: left;
         padding: 10px;
         border-radius: 20px;
@@ -324,13 +324,36 @@ footer a:hover {
     }
 
     .menu_general ul li {
+        position: relative;
+
         text-align: center;
         width: 287px;
         margin-left: -50px;
         border-right: 3px solid #85d3f7;
     }
 
-    .menu_general ul li a {    
+    /* Underline effect for menu options */
+    /* .menu_general ul li::before {
+        content: '';
+        position: absolute;
+        width: 100%; 
+        transform: scaleX(0);
+        height: 3px; 
+        bottom: 0;
+        left: 0;
+        background-color: #4097c0;
+        transform-origin: bottom right;
+        transition: transform 0.3s ease-out; 
+    }
+
+    .menu_general ul li:hover::after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    } */
+
+    .menu_general ul li a {   
+        position: relative; 
+
         text-decoration: none; 
         display: inline-block;    
         height: 30px; 
@@ -343,6 +366,20 @@ footer a:hover {
     .menu_general ul li a:hover {
         border-left: solid #4097c0 3px;
     }
+
+    /* .menu_general ul li a:after {    
+        content: '';
+        position: absolute;
+        width: 0%; 
+        bottom: 0;
+        left: 0;
+        border-bottom: 2px #4097c0 solid;
+        transition: 0.4s;
+    }
+
+    .menu_general ul li a:hover:after {
+        width: 100%;
+    } */
 
     .contact {
         text-align: initial;
