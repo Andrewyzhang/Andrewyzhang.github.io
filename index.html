@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="stylesheets/pygment_trac.css" />
+    <link rel="icon" type="image/x-icon" href="design.png" />
     <script src="detail.js" async></script>
     <meta
       name="viewport"
@@ -29,8 +30,9 @@
         <img src="menu.png" class="menu_button" />
         <div class="side_menu menu_general">
           <ul>
+            <li><a href="#work" class="work_selector">Work</a></li>
             <li><a href="#about" class="about_selector">About</a></li>
-            <li><a href="#projects" class="project_selector">Projects</a></li>
+            <li><a href="#projects" class="project_selector">Websites</a></li>
             <li><a href="#music" class="music_selector">Music</a></li>
           </ul>
         </div>
@@ -38,14 +40,15 @@
         <div class="contact">
           <span>Contact Info:</span> <br />
           <span>Email - andrew[dot]zhang [@] tufts[dot]edu</span><br />
-          <span>Phone - (6l7) 8l7-3624</span>
+          <span>Phone - See Resume</span>
         </div>
       </div>
 
       <div class="side_menu menu_mobile">
         <ul>
+          <li><a href="#work" class="work_selector">Work</a></li>
           <li><a href="#about" class="about_selector">About</a></li>
-          <li><a href="#projects" class="project_selector">Projects</a></li>
+          <li><a href="#projects" class="project_selector">Websites</a></li>
           <li><a href="#music" class="music_selector">Music</a></li>
         </ul>
       </div>
@@ -60,23 +63,39 @@
           </p>
         </div>
 
+        <div class="content work_sec" id="work">
+          <h3>My Work</h3>
+          <p>
+            At Tufts University, my primary major is computer science. I've
+            mainly coded in C/C++ and Python, but I also learned a lot of
+            frontend development with HTML/CSS, JavaScript, and React.
+          </p>
+          <p>
+            For summer 2020, I got the opportunity to work for Beacons.ai, a
+            startup targeted towards Instagram influencers. I contributed
+            towards data analysis and full-stack work, and published a blog post
+            for their website!
+          </p>
+          <p>
+            For more about my work profile, click
+            <a href="resume.pdf" target="_blank">here</a> to view my resume!
+          </p>
+        </div>
+
         <div class="content about_sec" id="about">
           <h3>About Me</h3>
           <p>
-            Currently 19, I just completed my sophomore year at Tufts University
-            studying under computer science and mathematics, with a minor in
-            music. I was born in Boston and grew up in Newton, MA, but attended
-            high school at Acton-Boxborough Regional High School. Growing up, my
-            greatest passion is playing the violin/viola. I especially love
-            orchestral and chamber classical repertoire. Some of my other
-            hobbies include tennis, biking, traveling, skiing, ice skating, and
-            playing video games. Academically, I've always performed best in
-            math, and I entered computer science with very little experience. As
-            I learn more throughout college, I hope to build more projects and
-            expand my knowledge!
+            I am a junior at Tufts studying CS and math with a minor in music. I
+            was born in Boston and grew up in Newton, MA, but attended high
+            school at Acton-Boxborough Regional High School. Growing up, my
+            greatest passion is playing the violin/viola. Some of my other
+            hobbies include tennis, hiking, traveling, skiing, ice skating, and
+            playing video games. Academically, I've always loved math, and I
+            started computer science at university. As I learn more within this
+            field, I get more excited to create new projects!
           </p>
 
-          <p>
+          <!-- <p>
             A little bit more about violin and tennis, the two activities I've
             kept up with for the majority of my childhood:
           </p>
@@ -102,19 +121,19 @@
               community that formed around me from that shared passion is one I
               will always cherish.
             </li>
-          </ul>
+          </ul> -->
         </div>
 
         <div class="content projects_sec" id="projects">
-          <h3>School Projects</h3>
+          <h3>Previous Websites</h3>
           <p>
-            High school was my first exposure to HTML/CSS, and I designed two
-            websites during that time. My very first one was about Super Smash
-            Bros 4, my favorite combat-style video game. This project gives an
-            overview of how to play the game. Another Nintendo franchise I love
-            is Pokemon, and my second website gives insight on the competitive
-            aspect of it. I'm pround to present these as the first two websites
-            I've used my personal creativity to build.
+            I first coded in HTML/CSS in high school, and I designed two
+            websites. My very first one was about Super Smash Bros 4, Nintendo's
+            combat-style crossover game. This site gives an overview of how to
+            play the game. Another Nintendo franchise I love is Pokemon, and my
+            second website gives insight on the competitive aspect of it. I'm
+            pround to present these as the first two websites I've used my
+            personal creativity to build.
           </p>
 
           <ul class="prev_sites show_on_scroll">
@@ -150,16 +169,18 @@
             second, here's are the first two movements of Mendelssohn's Octet:
           </p>
 
-          <iframe
-            src="https://www.youtube.com/embed/DO5dTuez0qw"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
-          <iframe
-            src="https://www.youtube.com/embed/d4lIuVH8d74"
-            frameborder="0"
-            allowfullscreen
-          ></iframe>
+          <div class="videos">
+            <iframe
+              src="https://www.youtube.com/embed/DO5dTuez0qw"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              src="https://www.youtube.com/embed/d4lIuVH8d74"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </section>
 
